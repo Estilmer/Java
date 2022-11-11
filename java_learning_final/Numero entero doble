@@ -1,0 +1,17 @@
+
+package com.mycompany.java_learning_final;
+
+import java.util.Scanner;
+
+public class Java_Learning_Final {
+
+    public static void main(String[] args) {
+        
+        Scanner sp = new Scanner(System.in);
+    
+        System.out.println("Ingrese su numero");
+        System.out.println("Su doble es: "+(sp.nextInt()*2));
+        System.out.println("Su doble es: "+(sp.nextInt()*3)); 
+        
+    }
+}

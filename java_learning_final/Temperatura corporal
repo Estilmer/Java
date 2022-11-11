@@ -1,0 +1,18 @@
+
+package com.mycompany.java_learning_final;
+
+import java.util.Scanner;
+
+public class Java_Learning_Final {
+
+    public static void main(String[] args) {
+        
+        Scanner sp = new Scanner(System.in);
+    
+        System.out.println("Ingrese su temperatura");
+        
+        float resultado = 32+(9*(sp.nextInt()/5));
+        System.out.println("Resultado: "+ resultado);
+        
+    }
+}
