@@ -1,0 +1,26 @@
+
+package clase3;
+
+import java.util.Scanner;
+
+    public class NewClass3 {
+    
+        public static void main(String[] args){
+        
+        Scanner sp = new Scanner(System.in);
+        
+        int num1, num2;
+         System.out.println("Ingrese un numero ");
+         
+         num1 = sp.nextInt();
+         System.out.println("Ingrese otro numero");
+         
+         num2 = sp.nextInt();
+         if (num1>num2){
+             System.out.println(num1 + " y " + num2);
+         }else{
+             System.out.print(num2 + " y " + num1);
+             }
+          }
+         }
+          

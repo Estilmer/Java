@@ -1,0 +1,27 @@
+
+package clase3;
+
+import java.util.Scanner;
+
+    public class NewClass3 {
+    
+        public static void main(String[] args){
+            
+        Scanner sp = new Scanner(System.in);
+        
+        int num1, num2;
+        
+         System.out.println("Ingrese dos numero ");
+         
+         num1 = sp.nextInt();
+         num2 = sp.nextInt();
+         
+         if (num1 == num2){
+             System.out.println("Estos dos numeros son iguales ");
+         }else{
+             System.out.print("No son iguales ");
+         }
+         }
+                 
+         
+     }

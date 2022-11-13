@@ -1,0 +1,26 @@
+
+package clase3;
+
+import java.util.Scanner;
+
+    public class NewClass3 {
+    
+        public static void main(String[] args){
+            int num;
+        Scanner sp = new Scanner(System.in);
+        
+         System.out.println("Ingrese el numero ");
+         
+         num = sp.nextInt();
+         
+         if (num<1){
+             System.out.println("El numero es negativo ");
+         }else{
+             if(num>2){
+             System.out.print("El numero es positivo ");
+             }
+          }
+         }
+                 
+         
+     }
